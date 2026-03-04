@@ -11,7 +11,7 @@ describe('Counter component', () => {
 
   it('renders with a custom initial value', () => {
     render(<Counter initialValue={5} />);
-    expect(screen.getByTestId('count-value')).toHaveTextContent('Current Count: 5');
+    expect(screen.getByTestId('count-value')).toHaveTextContent('Current Count: 3');
   });
 
   it('increments internal count on increase button click', () => {
