@@ -6,7 +6,7 @@ import Counter from './components/Counter'
 import ItemList from './components/ItemList'
 import './App.css'
 
-const test 123;
+const test = 123;
 
 function App() {
   const [count, setCount] = useState(0)
